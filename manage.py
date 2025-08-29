@@ -2,6 +2,7 @@
 """Root-level manage.py for customer cleanup task."""
 
 import os
+import sys
 import django
 from datetime import timedelta
 from django.utils import timezone
