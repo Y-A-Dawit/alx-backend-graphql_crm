@@ -1,4 +1,5 @@
 import graphene
+from crm.models import Product
 
 class Query(graphene.ObjectType):
     hello = graphene.String()
