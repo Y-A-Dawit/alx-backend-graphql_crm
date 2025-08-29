@@ -3,6 +3,8 @@ from pathlib import Path
 from gql import gql, Client
 from gql.transport.requests import RequestsHTTPTransport
 from celery import shared_task
+from datetime import datetime
+import requests
 
 LOG_FILE = Path("/tmp/crm_report_log.txt")
 
